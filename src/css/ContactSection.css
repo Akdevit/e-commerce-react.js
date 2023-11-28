@@ -1,0 +1,307 @@
+.Contact-section-cointener {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.contact-text-cointener {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-text-cointener1,
+.contact-text-cointener2 {
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.icon-with-text,
+.email-text-contaener {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.ico-contact,
+.email-text-conte {
+  width: 46px;
+  height: 46px;
+  border-radius: 100%;
+  background-color: rgb(193, 60, 60);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-phone,
+.fa-envelope {
+  font-size: 20px;
+  color: white;
+}
+.text-p-contact {
+  /* Title/16PX Medium */
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.around-p-contact {
+  /* Title/14PX Regular */
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+.contact-all-contact-cointener {
+  width: auto;
+  height: auto;
+}
+.inputes-box-contacrt {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 20px; */
+}
+.email-protect-box-contener {
+  width: 180px;
+  height: 40px;
+  background-color: rgb(239, 239, 239);
+  border-radius: 5px;
+}
+.inpute-filtd-contact {
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  outline: 0;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+}
+.textfild-buton-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 30px;
+}
+.msg-textfild {
+  width: 580px;
+  height: 150px;
+  resize: none;
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+  background-color: rgb(239, 239, 239);
+}
+.send-button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #db4444;
+  /* Title/16PX Medium */
+  font-family: "Poppins";
+  font-size: 16px;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  border: none;
+  cursor: pointer;
+}
+
+/* ....... Media Query .............. */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ .contact-text-cointener{
+  margin-top: 20px;
+ }
+  .Contact-section-cointener {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    align-items: center;
+    gap: 10px;
+  }
+  .inputes-box-contacrt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .textfild-buton-container {
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .msg-textfild {
+    width: 350px;
+  }
+  .contact-all-contact-cointener {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .email-protect-box-contener {
+    width: 300px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+  .Contact-section-cointener {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    align-items: center;
+    gap: 10px;
+  }
+  .inputes-box-contacrt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .textfild-buton-container {
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .msg-textfild {
+    width: 350px;
+  }
+  .contact-all-contact-cointener {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .email-protect-box-contener {
+    width: 300px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  .Contact-section-cointener {
+    width: 100%;
+    height: 660px;
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  }
+  .inputes-box-contacrt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .textfild-buton-container {
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .msg-textfild {
+    width: 400px;
+  }
+  .contact-all-contact-cointener {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .email-protect-box-contener {
+    width: 400px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+  .Contact-section-cointener {
+    width: 100%;
+    height: 660px;
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  }
+  .inputes-box-contacrt {
+    display: flex;
+    flex-direction: unset;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .textfild-buton-container {
+   height: 200px;
+    margin-top: 20px;
+  }
+  .msg-textfild {
+    width: 600px;
+  }
+  .contact-all-contact-cointener {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .email-protect-box-contener {
+    width: 180px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ 
+  .Contact-section-cointener {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  }
+  .inputes-box-contacrt {
+    display: flex;
+    flex-direction: unset;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .textfild-buton-container {
+   height: 200px;
+    margin-top: 20px;
+    /* gap: 50px; */
+  }
+  .msg-textfild {
+    width: 600px;
+  }
+  .contact-all-contact-cointener {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .email-protect-box-contener {
+    width: 180px;
+  }
+  
+}

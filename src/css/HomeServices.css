@@ -1,0 +1,137 @@
+.services-conteners {
+  width: 100%;
+  height: auto;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.services-sub-contener {
+  width: 1400px;
+  height: 200px;
+  /* background-color: bisque; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cointener-service {
+  width: 350px;
+  height: auto;
+  /* background-color: chocolate; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: rgb(213, 213, 213);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-box {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-truck-fast,
+.fa-headset,
+.fa-shield {
+  color: white;
+  font-size: 20px;
+}
+.text {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.header-text-services {
+  text-align: center;
+
+  /* Title/20PX Semibold */
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+}
+.sub-text {
+  text-align: center;
+  /* Title/14PX Regular */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+
+/* .......... Media Query ..........  */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ 
+  .services-sub-contener {
+    width: 350px;
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: unset;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ 
+  .services-sub-contener {
+    width: 500px;
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: unset;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ 
+  .services-sub-contener {
+    width:768px;
+    height: auto;
+    flex-direction: unset;
+    display: flex;
+    gap: 20px;
+    justify-content: unset;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ 
+  .services-sub-contener {
+    width: 992px;
+    height: auto;
+    flex-direction: unset;
+    gap: 20px;
+    justify-content: unset;
+    display: flex;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .services-sub-contener {
+    width: 1400px;
+    height: auto;
+    flex-direction: unset;
+    gap: 20px;
+    justify-content: space-around;
+    display: flex;
+  }
+}

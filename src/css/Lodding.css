@@ -1,0 +1,16 @@
+.lodding-contener{
+    width: 100%;
+    height: 250px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lodding-image{
+    width: 150px;
+    height: auto;
+    /* animation-name: bar; */
+    /* animation: linear infinite alternate;
+    animation-name: run;
+    animation-duration: 1s; */
+}

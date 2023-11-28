@@ -1,0 +1,227 @@
+.bestproductsell-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: right;
+  margin-top: 100px;
+}
+.bestproductsell-sub-container {
+  width: 1450px;
+  height: auto;
+}
+.hedertag-bestsall {
+  width: 100%;
+  height: auto;
+  display: grid;
+  gap: 10px;
+}
+.tag-title {
+  width: 120px;
+  height: 40px;
+  border: 15px solid #db4444;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Title/16PX Semibold */
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+}
+.more-btn-text {
+  width: 1300px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.browse-title {
+  /* Heading/36PX SemiBold */
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: 1.44px;
+  margin-left: 10px;
+}
+.more-items {
+  width: 169px;
+  height: 56px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid rgb(222, 222, 222);
+  /* Title/16PX Medium */
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.more-items:hover{
+    background-color: black;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+.bestsallproduct{
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 10px;
+    display: grid;
+    /* background-color: blueviolet; */
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-rows: repeat(auto-fit,minmax(250px,1fr));
+    gap: 12px;
+   
+}
+/* .............. Media Query .................. */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bestproductsell-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .bestproductsell-sub-container {
+    width: 350px;
+    height: auto;
+  }
+  .more-btn-text {
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card{
+    width: 170px;
+    height: auto;
+  }
+  .text-title{
+    width: 160px;
+    font-size: 15px;
+    line-height: 0.4cm;
+  }
+  .product-image{
+    width: 170px;
+  }
+  .bestsallproduct{
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-template-rows: repeat(auto-fit,minmax(150px,1fr));
+    gap: 12px;
+   
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .bestproductsell-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .bestproductsell-sub-container {
+    width: 500px;
+    height: auto;
+  }
+  .more-btn-text {
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card{
+    width: 250px;
+    height: auto;
+  }
+  .text-title{
+    width: 240px;
+    font-size: 15px;
+    line-height: 0.4cm;
+  }
+  .product-image{
+    width: 200px;
+  }
+  .bestsallproduct{
+    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+    grid-template-rows: repeat(auto-fit,minmax(230px,1fr));
+    gap:16px;
+   
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .bestproductsell-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .bestproductsell-sub-container {
+    width: 768px;
+    height: auto;
+  }
+  .more-btn-text {
+    width: 768px;
+    justify-content: space-between;
+    align-items: center;
+   }
+  
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .bestproductsell-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .bestproductsell-sub-container {
+    width: 992px;
+    height: auto;
+  }
+  .more-btn-text {
+    width: 992px;
+    justify-content: space-between;
+    align-items: center;
+   }
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .bestproductsell-container {
+    justify-content: right;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .bestproductsell-sub-container {
+    width: 1450px;
+    height: auto;
+  }
+  .more-btn-text {
+    width: 1300px;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .card{
+    width: 270px;
+    height: auto;
+  }
+  .text-title{
+    width: 240px;
+    font-size: 15px;
+    line-height: 0.4cm;
+  }
+  .product-image{
+    width: 200px;
+  }
+}

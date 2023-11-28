@@ -1,0 +1,215 @@
+.footer-contener {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-sub-contener {
+  width: 1450px;
+  height: auto;
+  /* background-color: bisque; */
+  display: flex;
+  justify-content: space-around;
+}
+.box-footer1,.box-footer2,.box-footer3,.box-footer4{
+  width: 250px;
+  height: 300px;
+  /* background-color: chocolate; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.text-h {
+  /* Title/20PX Medium */
+  font-family: " Poppins";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+  font-weight: bold;
+  color: white;
+}
+.text-p,.para-footer{
+  /* Title/16PX Regular */
+  font-family:" Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  color: white;
+  cursor: pointer;
+}
+.fa-paper-plane{
+    cursor: pointer;
+}
+.input-btn{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.f-in{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+/* ................ Media Query .............. */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* body{
+        background-color: red;
+    } */
+    .footer-contener {
+        width: 100%;
+        height: auto;
+      }
+    .footer-sub-contener {
+        width: 350px;
+        height: auto;
+        /* background-color: bisque; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* margin-top: 550px; */
+      }
+      .box-footer1,.box-footer2,.box-footer3,.box-footer4{
+        width: 250px;
+        height: auto;
+        /* background-color: chocolate; */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* body{
+        background-color: antiquewhite;
+    } */
+    .footer-contener {
+        width: 100%;
+        height: auto;
+      }
+    .footer-sub-contener {
+        width: 500px;
+        height: auto;
+        /* background-color: bisque; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* margin-top: 550px; */
+      }
+      .box-footer1,.box-footer2,.box-footer3,.box-footer4{
+        width: 250px;
+        height: auto;
+        /* background-color: chocolate; */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* body{
+        background-color: aquamarine;
+    } */
+    .footer-contener {
+        width: 100%;
+        height: 400px;
+      }
+    .footer-sub-contener {
+        width: 768px;
+        height: auto;
+        /* background-color: bisque; */
+        display: flex;
+        flex-direction: unset;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* margin-top: 550px; */
+      }
+      .box-footer1,.box-footer2,.box-footer3,.box-footer4{
+        width: 250px;
+        height: 260px;
+        /* background-color: chocolate; */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* body{
+        background-color: blueviolet;
+    } */
+    .footer-contener {
+        width: 100%;
+        height: 400px;
+      }
+    .footer-sub-contener {
+        width: 992px;
+        height: auto;
+        /* background-color: bisque; */
+        display: flex;
+        flex-direction: unset;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* margin-top: 550px; */
+      }
+      .box-footer1,.box-footer2,.box-footer3,.box-footer4{
+        width: 250px;
+        height: 260px;
+        /* background-color: chocolate; */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* body{
+        background-color: brown;
+    } */
+    .footer-contener {
+        width: 100%;
+        height: 400px;
+      }
+    .footer-sub-contener {
+        width: 1450px;
+        height: auto;
+        /* background-color: bisque; */
+        display: flex;
+        flex-direction: unset;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        /* margin-top: 550px; */
+      }
+      .box-footer1,.box-footer2,.box-footer3,.box-footer4{
+        width: 250px;
+        height: 260px;
+        /* background-color: chocolate; */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+}

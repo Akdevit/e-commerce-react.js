@@ -1,0 +1,223 @@
+.catogry-main-container {
+  width: 100%;
+  height: auto;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: right;
+  margin-top: 50px;
+}
+.catogry-container {
+  width: 1450px;
+  height: auto;
+  /* background-color: rgb(47, 181, 150); */
+}
+.text-name {
+  width: 100%;
+  height: auto;
+  /* background-color: azure; */
+  display: grid;
+  gap: 10px;
+}
+.catogry {
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  border: 15px solid #db4444;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.catogry {
+  /* Title/16PX Semibold */
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+}
+.cato-btn {
+  width: 1300px;
+  height: auto;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+}
+.cato-text {
+  margin-left: 10px;
+  /* Heading/36PX SemiBold */
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: 1.44px;
+}
+.next-pre-btn {
+  width: auto;
+  height: auto;
+  display: flex;
+  gap: 10px;
+}
+.btn-n {
+  width: 46px;
+  height: 46px;
+  border-radius: 100%;
+  border: none;
+  font-size: 20px;
+  background-color: white;
+  cursor: pointer;
+}
+.btn-n:hover {
+  background-color: black;
+  color: white;
+  transition: all 1s ease-in-out;
+}
+/* product-catogry-container */
+.product-catogry-container {
+  width: 100%;
+  height: 200px;
+  /* background-color: #db4444; */
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc(100% / 3)-12px;
+  gap: 16px;
+  overflow: hidden;
+  align-items: center;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.product-catogry-container::-webkit-scrollbar {
+    display: none;
+  }
+.catogry-box {
+  width: 170px;
+  height: 145px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.catogry-box:hover{
+    background-color: black;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+.cat-card {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* background-color: blue; */
+}
+.cato-icon {
+  font-size: 56px;
+}
+.name-cato {
+  /* Title/16PX Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  color: #000000;
+}
+/* .................. Media Query ................. */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .catogry-main-container {
+    justify-content: center;
+  }
+  .catogry-container {
+    width: 350px;
+    height: auto;
+  }
+  .cato-btn {
+    width: 350px;
+  }
+  .cato-text {
+    font-size: 30px;
+
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .catogry-main-container {
+    justify-content: center;
+  }
+  .catogry-container {
+    width: 500px;
+    height: auto;
+  }
+  .cato-btn {
+    width: 500px;
+  }
+  .cato-text {
+    font-size: 30px;
+
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .catogry-main-container {
+    justify-content: center;
+  }
+  .catogry-container {
+    width: 768px;
+    height: auto;
+  }
+  .cato-btn {
+    width: 768px;
+  }
+  .cato-text {
+    font-size: 30px;
+
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .catogry-main-container {
+    justify-content: center;
+  }
+  .catogry-container {
+    width: 992px;
+    height: auto;
+  }
+  .cato-btn {
+    width: 992px;
+  }
+  .cato-text {
+    font-size: 30px;
+
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .catogry-main-container {
+    justify-content: right;
+  }
+  .catogry-container {
+    width: 1450px;
+    height: auto;
+  }
+  .cato-btn {
+    width: 1300px;
+  }
+  .cato-text {
+    font-size: 46px;
+
+  }
+}

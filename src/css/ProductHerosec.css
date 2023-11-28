@@ -1,0 +1,66 @@
+.ProductHeroSctionsContainer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+}
+
+.text-pr {
+  width: 600px;
+  height: auto;
+  /* background-color: aquamarine; */
+  margin-left: 20px;
+}
+.text-pr-t {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 30px;
+  line-height: 1.5cm;
+  letter-spacing: 0.02em;
+}
+.text-p-p {
+  color: white;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  color: #e7e7e7;
+}
+
+/* .............. Media Query.............. */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .text-pr-t {
+    font-size: 25px;
+    line-height: 1cm;
+  }
+
+  .text-p-p {
+    font-size: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* ......Empty....... */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* ......Empty....... */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* ......Empty....... */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* ......Empty....... */
+}

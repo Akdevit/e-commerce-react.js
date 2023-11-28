@@ -1,0 +1,98 @@
+.wishlist-name-number-wish {
+  /* Title/20PX Regular */
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 130% */
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.wishlist-container-wish {
+  width: 100%;
+  height: auto;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+ margin-top: 20px;
+}
+.wishlist-sub-container-wish {
+  width: 1400px;
+  height: auto;
+  /* background-color: antiquewhite; */
+  position: relative;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+}
+/* ........... card-wishlist-wish ............ */
+.card-wishlist-wish {
+  width: 250px;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 2px 3px 0px rgb(215, 215, 215);
+}
+.wishlist-image {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+.sub-container-wish-text {
+  width: 100%;
+  height: auto;
+  /* background-color: aqua; */
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.addto-wishlist-wish {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  /* Title/12PX Regular */
+  font-family: "Poppins";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+.product-name-wish {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  /* background-color: red; */
+  /* Title/16PX Medium */
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  overflow: hidden;
+}
+.both-p-d-wish {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.price-wish {
+  /* Title/16PX Medium */
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}

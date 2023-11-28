@@ -1,0 +1,279 @@
+.heroSection-cointener {
+  width: 100%;
+  height: 660px;
+  background-color: #d5dbdb;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+/* text-buttons */
+.text-buttons {
+  width: 700px;
+  height: 300px;
+}
+.header-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 50px;
+  line-height: 1.5cm;
+  letter-spacing: 0.02em;
+  transition: all 1s ease-in-out;
+}
+.header-paragraf {
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #001d3a;
+}
+.combo-button {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+.btn-e {
+  width: 200px;
+  height: 45px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 17px;
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  font-family: "roboto";
+  font-weight: 100;
+  box-shadow: 0px 0px 1px 1px rgb(225, 225, 225);
+}
+
+/* shopping-images */
+.shopping-images {
+  width: 500px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+.over {
+  background-color: black;
+  color: white;
+}
+.over:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  transition: all 1s ease-in-out;
+}
+.start:hover {
+  background-color: black;
+  color: white;
+  transition: all 1s ease-in-out;
+}
+
+/* ........ Media Query ......... */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .heroSection-cointener {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* shopping-images */
+  .shopping-images {
+    width: 350px;
+    height: 300px;
+  }
+  .hero-image {
+    width: 350px;
+    height: auto;
+  }
+  /* text-buttons */
+  .text-buttons {
+    width: 350px;
+    height: 300px;
+    margin-top: 50px;
+  }
+  .header-text {
+    font-size: 30px;
+    line-height: 1cm;
+  }
+  .btn-e {
+    width: 170px;
+    height: 35px;
+    /* background-color: beige; */
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .heroSection-cointener {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* shopping-images */
+  .shopping-images {
+    width: 500px;
+    height: 300px;
+  }
+  .hero-image {
+    width: 400px;
+    height: auto;
+  }
+  /* text-buttons */
+  .text-buttons {
+    width: 500px;
+    height: 300px;
+    margin-top: 80px;
+  }
+  .header-text {
+    font-size: 30px;
+    line-height: 1cm;
+  }
+  .btn-e {
+    width: 180px;
+    height: 35px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .heroSection-cointener {
+    display: flex;
+    flex-direction: unset;
+  }
+
+  /* shopping-images */
+  .shopping-images {
+    width: 400px;
+    height: 300px;
+  }
+  .hero-image {
+    width: 400px;
+    height: auto;
+  }
+  /* text-buttons */
+  .text-buttons {
+    width: 400px;
+    height: 300px;
+    margin-top: 80px;
+  }
+  .header-text {
+    font-size: 40px;
+    line-height: 1.2cm;
+  }
+  .btn-e {
+    width: 180px;
+    height: 35px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* shopping-images */
+  .shopping-images {
+    width: 500px;
+    height: 300px;
+  }
+  .hero-image {
+    width: 400px;
+    height: auto;
+  }
+  /* text-buttons */
+  .text-buttons {
+    width: 500px;
+    height: 300px;
+    margin-top: 80px;
+  }
+  .header-text {
+    font-size: 40px;
+    line-height: 1.2cm;
+  }
+  .btn-e {
+    width: 180px;
+    height: 35px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .heroSection-cointener {
+    width: 100%;
+    height: 660px;
+    background-color: #d5dbdb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+  }
+  /* text-buttons */
+  .text-buttons {
+    width: 700px;
+    height: 300px;
+  }
+  .header-text {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 50px;
+    line-height: 1.5cm;
+    letter-spacing: 0.02em;
+    transition: all 1s ease-in-out;
+  }
+  .header-paragraf {
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #001d3a;
+  }
+  .combo-button {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  .btn-e {
+    width: 200px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    font-family: "roboto";
+    font-weight: 100;
+  }
+
+  /* shopping-images */
+  .shopping-images {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  .over {
+    background-color: black;
+    color: white;
+  }
+}

@@ -1,0 +1,130 @@
+.Aboutman-cointerner {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Aboutman-sub-cointener {
+  width: 1400px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Aboutman-card {
+  width: 300px;
+  height: 400px;
+}
+.image-wraper-about {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(209, 209, 209);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-man-about {
+  width: 200px;
+  height: 300px;
+}
+.about-text-wrapper {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.text-about-h1-text {
+  /* Heading/32PX Medium */
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 93.75% */
+  letter-spacing: 1.28px;
+}
+.text-about-p-text {
+  /* Title/16PX Regular */
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.social-about-icons{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    margin-left: 5px;
+}
+
+/* ......... Media Query ........... */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Aboutman-sub-cointener {
+        width: 350px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center;
+        gap: 10px;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .Aboutman-sub-cointener {
+        width: 500px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center;
+        gap: 10px;
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .Aboutman-sub-cointener{
+        width: 768px;
+        height: auto;
+        display: flex;
+        flex-direction: unset;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+      }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .Aboutman-sub-cointener{
+        width: 992px;
+        height: auto;
+        display: flex;
+        flex-direction: unset;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+      }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .Aboutman-sub-cointener{
+        width: 1400px;
+        height: auto;
+        display: flex;
+        flex-direction: unset;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+      }
+}

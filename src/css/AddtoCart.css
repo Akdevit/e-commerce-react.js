@@ -1,0 +1,320 @@
+.main-carts-conteners {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.cards-box {
+  width: 1400px;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+}
+.addtocard-products-details {
+  width: 1300px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgb(216, 216, 216);
+}
+.image-name-products {
+  width: 300px;
+  height: auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+.image-addto {
+  width: 70px;
+  height: auto;
+}
+.price-container {
+  width: 100px;
+  height: auto;
+}
+.price-addto {
+  font-size: 25px;
+}
+.quintity-container {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 5px;
+}
+.decrese-addto,
+.increase-addto {
+  width: 60px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+}
+.delete-container {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-trash {
+  font-size: 25px;
+  color: red;
+  cursor: pointer;
+}
+
+/* ----------------- */
+.two-btn-main-container {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+}
+.two-btn-group-container-addto {
+  width: 1400px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.addto-return-up {
+  width: 200px;
+  height: 45px;
+  border-radius: 1px solid rgb(229, 229, 229);
+  background-color: transparent;
+  cursor: pointer;
+  /* Title/16PX Medium */
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  border-radius: 5px;
+}
+
+/* ................. media Query .............. */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .cards-box {
+        width: 350px;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+      }
+      .addtocard-products-details {
+        width: 350px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgb(216, 216, 216);
+        /* background-color: rgb(237, 237, 237); */
+      }
+      .two-btn-group-container-addto {
+        width: 350px;
+        height: 80px;
+        gap: 10px;
+      
+      }
+      .addto-return-up {
+        width: 150px;
+        height: 45px;
+      }
+      .quintity-container {
+        width: 150px;
+        height: 45px;
+      }
+      
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .cards-box {
+        width: 500px;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+      }
+      .addtocard-products-details {
+        width: 500px;
+        height: auto;
+        display: flex;
+        flex-direction: unset;
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid rgb(216, 216, 216);
+        /* background-color: rgb(237, 237, 237); */
+      }
+      .image-name-products {
+        width: 200px;
+        overflow: hidden;
+      }
+      .image-addto {
+        width: 60px;
+        height: auto;
+      }
+      .quintity-container {
+        width: 150px;
+        height: 45px;
+      }
+       .two-btn-group-container-addto {
+        width: 500px;
+        height: 80px;
+        gap: 10px;
+      
+      }
+      .addto-return-up {
+        width: 200px;
+        height: 45px;
+      }
+      
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .cards-box {
+        width: 768px;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+      }
+      .addtocard-products-details {
+        width: 768px;
+        height: auto;
+        display: flex;
+        flex-direction: unset;
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid rgb(216, 216, 216);
+        /* background-color: rgb(237, 237, 237); */
+      }
+      .image-name-products {
+        width: 200px;
+        overflow: hidden;
+      }
+      .image-addto {
+        width: 60px;
+        height: auto;
+      }
+      .quintity-container {
+        width: 150px;
+        height: 45px;
+      }
+       .two-btn-group-container-addto {
+        width: 768px;
+        height: 80px;
+        gap: 10px;
+      
+      }
+      .addto-return-up {
+        width: 200px;
+        height: 45px;
+      }
+      
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .cards-box {
+        width: 992px;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+      }
+      .addtocard-products-details {
+        width: 992px;
+        height: auto;
+        display: flex;
+        flex-direction: unset;
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid rgb(216, 216, 216);
+        /* background-color: rgb(237, 237, 237); */
+      }
+      .image-name-products {
+        width: 200px;
+        overflow: hidden;
+      }
+      .image-addto {
+        width: 80px;
+        height: auto;
+      }
+      .quintity-container {
+        width: 200px;
+        height: 60px;
+      }
+       .two-btn-group-container-addto {
+        width: 992px;
+        height: 80px;
+        gap: 10px;
+      
+      }
+      .addto-return-up {
+        width: 200px;
+        height: 45px;
+      }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .cards-box {
+        width: 1400px;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+      }
+      .addtocard-products-details {
+        width: 1300px;
+        height: auto;
+        display: flex;
+        flex-direction: unset;
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid rgb(216, 216, 216);
+        /* background-color: rgb(237, 237, 237); */
+      }
+      .image-name-products {
+        width: 300px;
+        overflow: hidden;
+      }
+      .image-addto {
+        width: 80px;
+        height: auto;
+      }
+      .quintity-container {
+        width: 200px;
+        height: 60px;
+      }
+       .two-btn-group-container-addto {
+        width: 1300px;
+        height: 80px;
+        gap: 10px;
+      
+      }
+      .addto-return-up {
+        width: 200px;
+        height: 45px;
+      }
+}
